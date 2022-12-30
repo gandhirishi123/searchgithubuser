@@ -9,6 +9,7 @@ form.addEventListener('submit',function(f){
         <div class="card-body">
           <h5 class="card-title">${data.name}</h5>
           <p class="card-text">${data.bio}</p>
+          <p class="card-text">${user.followers}</p>
           <a href="${data.html_url}" class="btn btn-primary">visit profile</a>
         </div>
       </div>`
@@ -23,6 +24,7 @@ function f1(){
         <div class="card-body">
           <h1 class="card-title">${user.name}</h1>
           <p class="card-text">${user.bio}</p>
+          <p class="card-text">followers ${user.followers}</p>
           <a href="${user.html_url}" class="btn btn-primary">visit profile</a>
         </div>
       </div>`
